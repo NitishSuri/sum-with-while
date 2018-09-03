@@ -15,4 +15,4 @@ s=s+rem;
 }
 printf("Sum of the digits is %d",s);
 return(0);
-}//
+}

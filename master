@@ -1,0 +1,18 @@
+# sum-with-while
+//12th program on c
+#include<stdio.h>
+int main()
+{
+int a,s,rem;
+printf("Enter the number \n");
+scanf("%d",&a);
+s=0;
+while(a>0)
+{
+rem=a%10;
+a=a/10;
+s=s+rem;
+}
+printf("Sum of the digits is %d",s);
+return(0);
+}//
